@@ -177,6 +177,26 @@ ul > li > a > i.fa {
 /*---------footer styles end--------*/
 /*---------icon bar styles start----*/
 
+#icon-bar {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icons {
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+.icons img {
+    width:100px;
+    height: auto;
+    color: #616161;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
 
 
 

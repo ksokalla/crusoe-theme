@@ -18,11 +18,26 @@
 	<section id="icon-bar">
 	    <div class="container-fluid">
 	        <div class="row">
-	            <div class="icons"><i class="fa fa-wifi" aria-hidden="true"></i></div>
-	            <div class="icons"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span></div>
-	            <div class="icons"></div>
-	            <div class="icons"></div>
-	            <div class="icons"></div>
+	            <div class="icons">
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/wifi.ico" alt="wifi"></img>
+	                <p>Free WiFi</p>
+	            </div>
+	            <div class="icons">
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/lamp.ico" alt="lamp"></img>
+	                <p>Fully Furnished</p>
+	            </div>
+	            <div class="icons">
+                    <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/coffee.ico" alt="coffee"></img>
+                    <p>Breakfast</p>
+                </div>
+	            <div class="icons">
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/cocktail.ico" alt="cocktail"></img>
+	                <p>Free Drinks &amp; Snacks</p>
+	            </div>
+	            <div class="icons">
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/broom.ico" alt="broom"></img>
+	                <p>Cleaning Services</p>                
+	            </div>
 	        </div>
 	    </div>
 	</section>

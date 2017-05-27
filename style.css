@@ -173,13 +173,14 @@ ul > li > a > i.fa {
     padding-left: 0px;
 }
 
-
 /*---------footer styles end--------*/
 /*---------icon bar styles start----*/
 
 #icon-bar {
     text-align: center;
     padding-top: 30px;
+    font-size: 1.3em;
+    letter-spacing: 1px;
 }
 
 .icons {
@@ -190,14 +191,31 @@ ul > li > a > i.fa {
 }
 
 .icons img {
-    width:100px;
+    width: 70px;
     height: auto;
-    color: #616161;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+        
 }
 
 
 
 /*---------icon bar styles end----*/
+/*---------about-homepage start---*/
+
+#about-homepage {
+    background-color: #f6f6f6;
+    padding: 10px 120px;
+    text-align: justify;
+}
+
+#about-homepage p {
+    font-size: 1.3em;
+}
+
+#about-homepage h1 {
+    font-size: 42px;
+    color: #616161;
+}
+
+/*---------about-homepage end---*/

@@ -116,3 +116,53 @@ ul > li > a > i.fa {
 }
 
 /*---------slider styles end--------*/
+/*---------footer styles start--------*/
+#footer {
+    height: 100%;
+    background-color: #f6f6f6;
+    padding-top: 40px;
+}
+
+
+#footer, #footer a {
+   font-weight: 300;
+   letter-spacing: 1px;
+   color: #616161;
+}
+
+
+#footer a:hover {
+    color: #000;
+}
+
+#footer h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #616161;
+}
+
+#footer p {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#footer p.top-paragraph {
+    padding-top: 15px;
+}
+
+#footer-bar {
+    display: inline;
+    text-align: center;
+    
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    font-size: 0.75em;
+    color: #AAA8A8;
+}
+
+
+/*---------footer styles start--------*/

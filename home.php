@@ -2,7 +2,7 @@
 
 
 	
-	<!---------slider end-------->
+
 
 <?php get_footer() ?>
 	

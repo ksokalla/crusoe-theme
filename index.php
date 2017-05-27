@@ -13,6 +13,22 @@
 	
 	
 	<!---------slider end-------->
+	<!---------icon bar start-------->
+	
+	<section id="icon-bar">
+	    <div class="container-fluid">
+	        <div class="row">
+	            <div class="icons"><i class="fa fa-wifi" aria-hidden="true"></i></div>
+	            <div class="icons"><span class="glyphicon glyphicon-lamp" aria-hidden="true"></span></div>
+	            <div class="icons"></div>
+	            <div class="icons"></div>
+	            <div class="icons"></div>
+	        </div>
+	    </div>
+	</section>
+	
+	<!---------icon bar end-------->
+ 
 <?php if( have_posts() ) : ?>
 	<?php while( have_posts() ) : the_post() ?>
 		<h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>
@@ -23,6 +39,7 @@
 <?php else : ?>
 	<p>Oh No, there are no posts!</p>
 <?php endif ?>
+
 <?php get_footer() ?>
 	
 

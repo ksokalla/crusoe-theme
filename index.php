@@ -17,7 +17,7 @@
 	
 	<section id="icon-bar">
 	    <div class="container-fluid">
-	        <div class="row">
+	        <div>
 	            <div class="icons">
 	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/wifi.ico" alt="wifi"></img>
 	                <p>Free WiFi</p>
@@ -60,25 +60,25 @@
 	<!---------about-homepage end-------->
 	<section id="pros">
 	    <div class="container-fluid">
-	        <div class="row">
-	            <h2>Why book with us</h2>
-	            <li>
-	                <ul>3 minutes walking distance to Main Square</ul>
-	                <ul>5 minutes walking distance to Wawel</ul>
-	                <ul>public transportation in front of the building</ul>
-	                <ul>historic district </ul>
-	                <ul>breakfast included </ul>
-	                <ul>complimentary drinks and snacks</ul>
-	                <ul>free WiFi + free WiFi To Go</ul>
-	            </li>
-	        </div>
-	        <div class="row">
-	            <div>
+	        <div class="row pros-items">
+                <div class="pros-item">
+                    <h2>Why book with us</h2>
+                    <ul id="pros-list">
+                        <li>3 minutes walking distance to Main Square</li>
+                        <li>5 minutes walking distance to Wawel</li>
+                        <li>public transportation in front of the building</li>
+                        <li>historic district </li>
+                        <li>breakfast included </li>
+                        <li>complimentary drinks and snacks</li>
+                        <li>free WiFi + free WiFi To Go</li>
+                    </ul>
+	            </div>
+	            <div class="pros-item" id="crusoe-logo">
 	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/img/crusoelogo.png" alt="">
 	            </div>
-	        </div>
-	        <div class="row">
-	            
+	            <div class="pros-item">
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.3844471868947!2d19.928513214997096!3d50.06036142327752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b0c617a299f%3A0xe3664c11562aaf78!2sCrusoe+Apartamenty!5e0!3m2!1spl!2spl!4v1495902375856" width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+	            </div>
 	        </div>
 	    </div>
 	</section>

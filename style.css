@@ -210,7 +210,8 @@ ul > li > a > i.fa {
 }
 
 #about-homepage p {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: 'Open sans', sans-serif;
 }
 
 #about-homepage h1 {
@@ -219,3 +220,50 @@ ul > li > a > i.fa {
 }
 
 /*---------about-homepage end---*/
+/*---------pros start-----------*/
+
+.pros-item {
+    display: inline-block;
+    vertical-align: top;
+    color: #616161;
+}
+
+.pros-item h2 {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#pros-list {
+    margin-top: 45px;
+}
+
+.pros-item li {
+    display: block;
+    font-size: 1.2em;
+    padding-bottom: 20px;
+    text-align: left;
+    display: list-item;
+    font-family: 'Open sans', sans-serif;
+}
+
+#crusoe-logo {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pros-items {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#pros img {
+    width: 80px;
+    height: auto;
+}
+
+
+
+
+
+/*---------pros end-------------*/

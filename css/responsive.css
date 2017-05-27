@@ -3,7 +3,15 @@
         padding-left: 35px;
         padding-right: 35px;
     }
-}
+    
+        div#opinions {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+        #partners {
+        width: auto;
+    }
 
 @media only screen and (max-width: 768px) {
         .icons {
@@ -13,7 +21,7 @@
         .footer-headers {
         padding-top: 15px;
     }
-        #about-homepage {
+        #about-homepage, div#opinions {
         padding-left: 30px;
         padding-right: 30px;
         }
@@ -21,7 +29,7 @@
 
 @media only screen and (max-width: 430px) {
         
-        #about-homepage {
+        #about-homepage, div#opinions {
         padding-left: 10px;
         padding-right: 10px;
         }

@@ -19,23 +19,23 @@
 	    <div class="container-fluid">
 	        <div>
 	            <div class="icons">
-	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/wifi.ico" alt="wifi"></img>
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/wifi.ico" alt="wifi">
 	                <p>Free WiFi</p>
 	            </div>
 	            <div class="icons">
-	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/lamp.ico" alt="lamp"></img>
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/lamp.ico" alt="lamp">
 	                <p>Fully Furnished</p>
 	            </div>
 	            <div class="icons">
-                    <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/coffee.ico" alt="coffee"></img>
+                    <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/coffee.ico" alt="coffee">
                     <p>Breakfast</p>
                 </div>
 	            <div class="icons">
-	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/cocktail.ico" alt="cocktail"></img>
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/cocktail.ico" alt="cocktail">
 	                <p>Free Drinks &amp; Snacks</p>
 	            </div>
 	            <div class="icons">
-	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/broom.ico" alt="broom"></img>
+	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/broom.ico" alt="broom">
 	                <p>Cleaning Services</p>                
 	            </div>
 	        </div>
@@ -58,6 +58,7 @@
 	
 	
 	<!---------about-homepage end-------->
+	<!---------pros start---------------->
 	<section id="pros">
 	    <div class="container-fluid">
 	        <div class="row pros-items">
@@ -82,7 +83,37 @@
 	        </div>
 	    </div>
 	</section>
- 
+    
+    <!---------pros end----------------->
+    <!---------opinions-partners start----------------->
+    
+    <section id="opinions-partners">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6" id="opinions">
+                    <h2>People say the nicest things…</h2>
+                    <p>"Absolutely gorgous apartament, new and beautiful, great location, central but quiet... and the best is the wi-fi to go!"
+                    <p class="author">Mike and Anna</p>
+                    <p>"Wunderschön, beste Lage, gross und alles neu renviert. Super WiFi, Kühlschrank voll mit Getränken und sogar eine excelente Flasche Wein als Gastgeschenk..... einfach PERFEKT! Vielen Dank"
+                    <p class="author">Peter mit Famile</p>
+                    <p>“Perfect place to stay! Walking distance to Main Square. Best breakfast ever!"
+                    <p class="author">Maria and Stan</p> 
+                    </p>
+                </div>
+                <div id="partners" class="col-lg-6 col-md-6">
+                    <div><img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/img/bonjour-cava.png" alt="bonjour-cava">
+                    </div>
+                    <div>
+                    <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/img/anioly.gif" alt="anioly">    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!---------opinions-partners end----------------->
+    
+    
 <?php if( have_posts() ) : ?>
 	<?php while( have_posts() ) : the_post() ?>
 		<h2><a href='<?php the_permalink() ?>'><?php the_title() ?></a></h2>

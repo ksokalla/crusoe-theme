@@ -17,7 +17,13 @@
                 </div>            
                 <div class="col-lg-4 col-sm-4">
                 <h2>We accept</h2>
-                <p class="top-paragraph"></p>
+                <p class="top-paragraph">
+                    <ul>
+                        <li><img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/paypal.ico" alt="paypal"></img></li>
+                        <li><img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/mastercard.ico" alt="mastercard"></img></li>
+                        <li><img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/icons/visa.ico" alt="visa"></img></li>
+                    </ul>
+                </p>
                 </div>
             </div>
         <div id="copyright" class="col-lg-6 col-md-6 col-sm-6">

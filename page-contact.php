@@ -1,7 +1,7 @@
 <?php
 /*
  * Template Name: Contact
- * Description: Conatct page template
+ * Description: Contact page template
  */
  get_header() ?>
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -21,7 +21,7 @@
                          <div class="col-lg-6 left-side">
                             [contact-form-7 id="1327" title="Formularz 1"]
                         </div>
-                         <div class="col-lg-6 with-logo">
+                         <div class="col-lg-6">
                             <h2>Crusoe Apartments</h2>
                             <p><a href="mailto:info@crusoe.info">info@crusoe.info</a></p>
                             <p>Tel: +48 500 503 888</p>

@@ -74,7 +74,7 @@ nav.navbar-default {
 
 .navbar-default .navbar-nav > li > a {
   color: #333;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 5px 0;
@@ -316,7 +316,7 @@ div#opinions {
 
 /*---------footer styles end--------*/
 
-/*--------- pages styles start------*/
+/*--------- about page styles start------*/
 
 .page-main-content {
     padding-left: 120px;
@@ -384,8 +384,12 @@ div#opinions {
 /*--------- about page styles end-*/
 /*--------- contact page styles start-*/
 
+#cracow-pic {
+    text-align: center;
+}
+
 #cracow-pic img {
-    width: 489px;
+    width: 70%;
     height: auto;
 }
 
@@ -393,10 +397,6 @@ div#opinions {
     font-size: 32px;
     color: #616161;
     text-align: justify;
-}
-
-.contact-page-main-content p {
-    font-size: 0.7em;
 }
 
 .contact-page-main-content h2 {
@@ -408,20 +408,96 @@ div#opinions {
     padding-top: 25px;
 }
 
-.with-logo img {
-     width: 80px;
+.cruap img {
+     width: 130px;
      height: auto;
-     vertical-align: top;
+     padding-top: 15px;
+}
+
+div.cruap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.cruap p {
+    margin-bottom: 0px;
+    font-size: 0.7em;
+    text-align: left;
+}
+
+#cruap-container-wrapper {
+    text-align: center;
+}
+
+#cruap-container p:nth-child(2) {
+    margin-top: 15px;
+}
+
+div.wpcf7-form {
+    text-align: center;
+    width: 100%;
+}
+
+div.wpcf7 input, div.wpcf7 textarea {
+    width: 400px;
+    text-align: left;
+    font-size: 0.7em;
+    border: 1px solid rgba(97, 97, 97, 0.67);
+    color: rgba(97, 97, 97, 0.67);
+    font-weight: normal;
+}
+
+label {
+    text-align: left;
+}
+
+div.wpcf7 p {
+    font-size: 0.7em;
+    margin: 0;
+}
+
+
+div.wpcf7 input[type="submit"] {
+    width: 60px;
+    text-align: center;
+    border-style: none;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+div.wpcf7 textarea {
+    height: 20vh;
+    padding: 0;
+}
+
+#crusoe-form {
+    padding-top: 0;
+    text-align: center;
+}
+
+::placeholder, input[type="email"] {
+    color: rgba(97, 97, 97, 0.67);
+    font-weight: normal;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 
 
-
-
 /*--------- contact page styles end-*/
+/*--------- pictures page styles start-*/
 
 
 .left-padding-page {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
+
+/*--------- pictures page styles end-*/

@@ -1,3 +1,4 @@
+/*----------slick slider styles start--------*/
 jQuery(document).ready(function () {
     'use strict';
   	jQuery('.slidersokalla').slick({
@@ -34,7 +35,8 @@ jQuery(document).ready(function () {
   ]
 		
 	});
-    /*-----------scroll reveal-----------*/
+/*----------slick slider styles end--------*/
+/*-----------scroll reveal start-----------*/
 	
 	window.sr = ScrollReveal().reveal('.crusoe-logo')
 	

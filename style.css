@@ -315,3 +315,65 @@ div#opinions {
 }
 
 /*---------footer styles end--------*/
+
+/*--------- pages styles start------*/
+
+.page-main-content {
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 32px;
+    color: #616161;
+}
+
+.page-content-container img {
+    width: 100%;
+}
+
+.page-heading {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.page-content-container h1 {
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #616161;
+    padding-left: 120px;
+}
+
+.page-content-container h2 {
+    font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #616161;
+}
+
+.services-list li {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    display: list-item;
+    
+}
+
+.services-list ul {
+    margin-top: 25px;
+    padding-left: 25px;
+}
+
+#services-lists {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.serv1 {
+     background-color: #f6f6f6;
+}
+
+/*--------- about page styles start-*/
+
+

@@ -191,7 +191,7 @@ ul > li > a > i.fa {
     font-family: 'Open sans', sans-serif;
 }
 
-#crusoe-logo {
+.crusoe-logo {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
@@ -265,14 +265,14 @@ div#opinions {
 }
 
 
-#footer, #footer a {
+#footer, #footer a, .contact-page-main-content a  {
    font-weight: 300;
    letter-spacing: 1px;
    color: #616161;
 }
 
 
-#footer a:hover {
+#footer a:hover, .contact-page-main-content a:hover {
     color: #000;
 }
 
@@ -282,7 +282,7 @@ div#opinions {
     color: #616161;
 }
 
-#footer p {
+#footer p  {
     margin: 0;
     font-size: 1.5em;
 }
@@ -323,6 +323,7 @@ div#opinions {
     padding-right: 120px;
     font-size: 32px;
     color: #616161;
+    text-align: justify;
 }
 
 .page-content-container img {
@@ -354,6 +355,7 @@ div#opinions {
     text-align: left;
     font-size: 20px;
     display: list-item;
+    padding-bottom: 8px;
     
 }
 
@@ -366,14 +368,56 @@ div#opinions {
     margin-top: 30px;
     width: 100%;
     height: auto;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 60px;
+    
 }
 
 .serv1 {
      background-color: #f6f6f6;
+     margin-bottom: 60px;
 }
 
-/*--------- about page styles start-*/
+.list2 {
+    padding-top: 28px;
+}
+
+/*--------- about page styles end-*/
+/*--------- contact page styles start-*/
+
+#cracow-pic img {
+    width: 489px;
+    height: auto;
+}
+
+.contact-page-main-content {
+    font-size: 32px;
+    color: #616161;
+    text-align: justify;
+}
+
+.contact-page-main-content p {
+    font-size: 0.7em;
+}
+
+.contact-page-main-content h2 {
+    font-weight: 400;
+}
+
+.left-side {
+    padding-left: 120px;
+    padding-top: 25px;
+}
+
+.with-logo img {
+     width: 80px;
+     height: auto;
+     vertical-align: top;
+}
+
+
+
+
+
+/*--------- contact page styles end-*/
 
 

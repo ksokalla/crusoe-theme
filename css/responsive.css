@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1236px) {
+@media (max-width: 1236px) {
         .icons {
         padding-left: 35px;
         padding-right: 35px;
@@ -12,8 +12,15 @@
         #partners {
         width: auto;
     }
+}
+@media (max-width: 960px) {
+         
+    .list2 {
+        padding-top: 0;
+    }   
+}
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
         .icons {
         padding-left: 25px;
         padding-right: 25px;
@@ -25,14 +32,24 @@
         padding-left: 30px;
         padding-right: 30px;
         }
+    
+        .page-main-content  {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
-@media only screen and (max-width: 430px) {
+@media (max-width: 430px) {
         
         #about-homepage, div#opinions {
         padding-left: 10px;
         padding-right: 10px;
         }
+        
+        .page-main-content  {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 

@@ -36,9 +36,9 @@ jQuery(document).ready(function () {
 	});
     /*-----------scroll reveal-----------*/
 	
-	window.sr = ScrollReveal().reveal('#crusoe-logo')
+	window.sr = ScrollReveal().reveal('.crusoe-logo')
 	
-	sr.reveal('#crusoe-logo', {duration: 1000});
+	sr.reveal('.crusoe-logo', {duration: 1000});
 
 	
 /*-------scroll reveal end----------*/

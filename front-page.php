@@ -77,7 +77,7 @@
                         <li>free WiFi + free WiFi To Go</li>
                     </ul>
 	            </div>
-	            <div class="pros-item" id="crusoe-logo">
+	            <div class="pros-item crusoe-logo">
 	                <img src="http://localhost/blog_projekt/wp-content/themes/crusoe theme/img/crusoelogo.png" alt="">
 	            </div>
 	            <div class="pros-item">

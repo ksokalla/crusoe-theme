@@ -1,3 +1,13 @@
+<?php
+/**
+ * The header for our theme
+ *
+ * 
+ */
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pl">
 <head>
@@ -14,7 +24,7 @@
 				<div class="col-lg-4 col-sm-6">
 					<h3><span><a href="#">Crusoe</a></span></h3> </div>
 				<div class="col-lg-4 col-sm-6">
-					<h3>luxury rental apartments in the heart of Cracow</h3> </div>
+					<h3><?php bloginfo('description'); ?></h3> </div>
 				<div class="col-lg-4 col-sm-6">
 				<ul>
 					<li><a href="mailto:info@crusoe.info">info@crusoe.info</a></li>

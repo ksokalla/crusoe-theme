@@ -44,5 +44,7 @@ jQuery(document).ready(function () {
 
 	
 /*-------scroll reveal end----------*/
+    jQuery('br').remove();
+    jQuery('p:empty').remove();
 });
 

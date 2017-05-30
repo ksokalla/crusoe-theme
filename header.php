@@ -12,6 +12,7 @@
 <html lang="pl">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crusoe Apartments</title>
 	<?php wp_head(); ?>
 </head>
@@ -22,7 +23,7 @@
 		<div class='row'>
 			<div id="header-top-bar">
 				<div class="col-lg-4 col-sm-6">
-					<h3><span><a href="#">Crusoe</a></span></h3> </div>
+					<h3><span><a href="<?php bloginfo('url'); ?>">Crusoe</a></span></h3> </div>
 				<div class="col-lg-4 col-sm-6">
 					<h3><?php bloginfo('description'); ?></h3> </div>
 				<div class="col-lg-4 col-sm-6">

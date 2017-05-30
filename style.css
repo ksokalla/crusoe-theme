@@ -222,7 +222,6 @@ div#opinions {
     padding-left: 190px;
     padding-top: 50px;
     padding-bottom: 10px;
-    
 }
 
 #opinions p {
@@ -240,15 +239,19 @@ div#opinions {
     margin-top: 25px;
 }
 
+div.partner-logos {
+    width: 50%;
+}
+
 #partners img {
-    width: 180px;
+    width: auto;
     height: auto;
     padding: 20px 20px;
 }
 
 #partners {
     text-align: center;
-    width: 500px;
+    width: 360px;
 }
 
 #partners div {
@@ -467,6 +470,10 @@ div.wpcf7 input[type="submit"] {
     text-transform: uppercase;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.wpcf7-form-control-wrap your-name {
+    overflow: hidden;
 }
 
 div.wpcf7 textarea {

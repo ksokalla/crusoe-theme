@@ -1,65 +1,70 @@
-@media (max-width: 1236px) {
-        .icons {
+@media screen (max-device-width: 1236px) {
+    .icons {
         padding-left: 35px;
         padding-right: 35px;
     }
-    
-        div#opinions {
+    div#opinions {
         padding-left: 100px;
         padding-right: 100px;
     }
-    
-        #partners {
+/*
+    #partners {
         width: auto;
     }
-    
-        .left-side {
+*/
+    .left-side {
         padding-left: 20px;
-
-        }
-@media (max-width: 960px) {
-         
-        .list2 {
-            padding-top: 0;
-        }   
+    }
 }
 
-@media (max-width: 768px) {
-        .icons {
+@media screen (max-device-width: 960px) {
+    .list2 {
+        padding-top: 0;
+    }
+}
+
+@media screen (max-device-width: 768px) {
+    .icons {
         padding-left: 25px;
         padding-right: 25px;
     }
-        .footer-headers {
+    .footer-headers {
         padding-top: 15px;
     }
-        #about-homepage, div#opinions {
+    #about-homepage,
+    div#opinions {
         padding-left: 30px;
         padding-right: 30px;
-        }
-    
-        .page-main-content  {
+        width: 100%;
+    }
+    .page-main-content {
         padding-left: 25px;
         padding-right: 25px;
     }
-        #cracow-pic img {
+    #cracow-pic img {
         width: 100%;
     }
+    
+    div.wpcf7 {
+        width: 100%
+    }
+    
+    .left-side {
+        padding-left: 0px;
+    }
+    
 }
 
-@media (max-width: 430px) {
-        
-        #about-homepage, div#opinions {
+@media screen (max-device-width: 430px) {
+    #about-homepage,
+    div#opinions {
         padding-left: 10px;
         padding-right: 10px;
-        }
-        
-        .page-main-content  {
+        width: 100%;
+    }
+    .page-main-content {
         padding-left: 10px;
         padding-right: 10px;
     }
-      
+   
 }
-
-
-
-

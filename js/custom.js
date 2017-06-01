@@ -3,7 +3,7 @@ jQuery(document).ready(function () {
     'use strict';
   	jQuery('.slidersokalla').slick({
 		accessibility: true,
-		adaptiveHeight: false,
+		adaptiveHeight: true,
 		arrows: false,
 		variableWidth: true,
 		centerMode: true,
@@ -13,6 +13,8 @@ jQuery(document).ready(function () {
 		slidesToShow: 1,
   		slidesToScroll: 1,
 		autoplaySpeed: 2000,
+        outerEdgeLimit: false,
+        placeholders: false,
 		responsive: [
     {
       breakpoint: 768,

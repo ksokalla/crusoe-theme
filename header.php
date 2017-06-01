@@ -12,6 +12,7 @@
 <html lang="pl">
 <head>
 	<meta charset="UTF-8">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Crusoe Apartments</title>
 	<?php wp_head(); ?>
@@ -30,7 +31,7 @@
 				<ul>
 					<li><a href="mailto:info@crusoe.info">info@crusoe.info</a></li>
 					<li>+48 500 503 888</li>
-					<li><button class="btn-default"><a href="#">Book now</a></button></li>
+<!--					<li><button class="btn-default"><a href="http://krzysztofsokalla.pl/dev/apartments/">Book now</a></button></li>-->
 				</ul>
 				</div>
 				

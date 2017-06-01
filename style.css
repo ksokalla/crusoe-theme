@@ -13,8 +13,10 @@ Text Domain: crusoe
 
 /*---------general styles start---------*/
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
-  margin: 0; }
+  font-family: 'Open Sans Condensed';
+  margin: 0; 
+  width: 100%;
+}
 
 a {
   text-decoration: none;
@@ -38,7 +40,11 @@ h1>a {
 #header-top-bar {
   color: #fff;
   text-align: center;
-  padding: 5px 0 0 0; }
+  padding: 10px 0 0 0; }
+
+#header-top-bar span {
+    text-transform: uppercase;
+}
 
 #header-top-bar p, h2, h3, li {
   display: inline;
@@ -53,7 +59,7 @@ h1>a {
   padding-left: 0px; }
 
 span {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   font-size: 1.1em; }
 
 button a {
@@ -76,7 +82,7 @@ nav.navbar-default {
   color: #333;
   font-size: 1.5em;
   font-weight: bold;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed';
   margin: 5px 0;
   padding-left: 45px;
   padding-right: 45px;
@@ -153,7 +159,7 @@ ul > li > a > i.fa {
 
 #about-homepage p {
     font-size: 1.2em;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Open sans';
 }
 
 #about-homepage h1 {
@@ -188,7 +194,7 @@ ul > li > a > i.fa {
     padding-bottom: 20px;
     text-align: left;
     display: list-item;
-    font-family: 'Open sans', sans-serif;
+    font-family: 'Open sans';
 }
 
 .crusoe-logo {
@@ -216,7 +222,7 @@ ul > li > a > i.fa {
     margin-bottom: 80px;
 }
 
-div#opinions {
+#opinions {
     display: block;
     background-color: #f6f6f6;
     padding-left: 190px;
@@ -258,6 +264,29 @@ div.partner-logos {
     display: inline;
 }
 
+/*---------newsletter styles start-----*/
+
+#newsletter {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+#newsletter p {
+    font-size: 1.2em;
+}
+
+input[type="email"] {
+    width: 200px;
+}
+
+input.class[type="submit"] {
+    width: 50px;
+}
+
+/*---------newsletter styles end-----*/
+
 
 /*---------opinions-partners styles end-------------*/
 /*---------footer styles start--------*/
@@ -290,6 +319,10 @@ div.partner-logos {
     font-size: 1.5em;
 }
 
+.footer-headers {
+    margin-top: 15px;
+}
+
 #footer p.top-paragraph {
     padding-top: 15px;
 }
@@ -306,9 +339,20 @@ div.partner-logos {
     margin-top: 50px;
     font-size: 0.75em;
     color: #AAA8A8;
+    padding-bottom: 15px;
 }
 
-#footer img {
+#prettygood img {
+    height: 35px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.copyrights {
+    display: inline;
+}
+
+#footer ul img {
     width: 50px;
     height: auto;
 }
@@ -436,64 +480,9 @@ div.cruap p {
     margin-top: 15px;
 }
 
-/*
-div.wpcf7-form {
-    text-align: center;
-    width: 100%;
-}
-
-div.wpcf7 input, div.wpcf7 textarea {
-    width: 400px;
-    text-align: left;
-    font-size: 0.7em;
-    border: 1px solid rgba(97, 97, 97, 0.67);
-    color: rgba(97, 97, 97, 0.67);
-    font-weight: normal;
-}
-
-label {
-    text-align: left;
-}
-
-div.wpcf7 p {
-    font-size: 0.7em;
-    margin: 0;
-*/
-}
-
-
-div.wpcf7 input[type="submit"] {
-    width: 60px;
-    text-align: center;
-    border-style: none;
-    border-radius: 2px;
-    margin-bottom: 25px;
-    font-size: 0.9em;
-    text-transform: uppercase;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.wpcf7-form-control-wrap your-name {
-    overflow: hidden;
-}
-
-div.wpcf7 textarea {
-    height: 20vh;
-    padding: 0;
-}
-
 #crusoe-form {
     padding-top: 0;
     text-align: center;
-}
-
-::placeholder, input[type="email"] {
-    color: rgba(97, 97, 97, 0.67);
-    font-weight: normal;
-    padding-left: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
 
 
@@ -510,3 +499,52 @@ div.wpcf7 textarea {
 
 
 /*--------- pictures page styles end-*/
+
+/*--------- apartments page styles start----*/
+
+.hb-details-fields {
+    
+    text-align: center;
+}
+
+.hb-details-fields a {
+    color: #000;
+}
+
+
+.hb-search-button-wrapper input[type="submit"] {
+    height: 50px;
+    padding-top: 8px;
+    font-size: 24px;
+}
+
+#hbook-booking-form-1 {
+
+line-height: 150%;
+
+}
+
+
+.apartments-page-content-container, 
+.hb-resa-summary-content {
+    padding: 15px 30px 10px 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(97,97,97,0.5);
+    border-radius: 4px;
+    background-color: #f6f6f6;
+}
+
+.hb-search-fields {
+    padding-top: 15px;
+}
+
+.hb-check-dates-wrapper,
+.hb-people-wrapper {
+    background-color: #fff;
+    font-size: 24px;
+}
+
+
+/*--------- apartments page styles end----*/

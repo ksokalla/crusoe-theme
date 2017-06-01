@@ -1,29 +1,30 @@
-@media screen (max-device-width: 1236px) {
+@media(max-width : 77.2em) {
     .icons {
         padding-left: 35px;
         padding-right: 35px;
     }
-    div#opinions {
+    #opinions {
         padding-left: 100px;
         padding-right: 100px;
     }
-/*
-    #partners {
-        width: auto;
-    }
-*/
     .left-side {
         padding-left: 20px;
     }
 }
 
-@media screen (max-device-width: 960px) {
+@media(max-width : 60em) {
     .list2 {
         padding-top: 0;
     }
+    .apartments-page-content-container,
+    .hb-resa-summary-content {
+        padding: 15px 10px 10px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
-@media screen (max-device-width: 768px) {
+@media(max-width : 48em) {
     .icons {
         padding-left: 25px;
         padding-right: 25px;
@@ -31,11 +32,15 @@
     .footer-headers {
         padding-top: 15px;
     }
-    #about-homepage,
-    div#opinions {
-        padding-left: 30px;
-        padding-right: 30px;
+    #opinions {
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 10px;
         width: 100%;
+    }
+    #about-homepage {
+        padding: 10px 30px;
     }
     .page-main-content {
         padding-left: 25px;
@@ -44,20 +49,17 @@
     #cracow-pic img {
         width: 100%;
     }
-    
-    div.wpcf7 {
-        width: 100%
-    }
-    
     .left-side {
-        padding-left: 0px;
+        padding-left: 0;
     }
-    
+    .page-heading {
+        text-align: center;
+    }
 }
 
-@media screen (max-device-width: 430px) {
+@media(max-width : 26em) {
     #about-homepage,
-    div#opinions {
+    #opinions {
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
@@ -66,5 +68,28 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-   
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    #about-homepage,
+    #opinions {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .page-main-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .left-side {
+        padding-left: 20px;
+    }
+    
+     .apartments-page-content-container,
+    .hb-resa-summary-content {
+        padding: 15px 10px 10px 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+        
 }

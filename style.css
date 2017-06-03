@@ -151,18 +151,21 @@ ul > li > a > i.fa {
 /*---------icon bar styles end----*/
 /*---------about-homepage styles start---*/
 
-#about-homepage {
+#about-homepage,
+.terms {
     background-color: #f6f6f6;
     padding: 10px 120px;
     text-align: justify;
 }
 
-#about-homepage p {
+#about-homepage p,
+.terms p {
     font-size: 1.2em;
     font-family: 'Open sans';
 }
 
-#about-homepage h1 {
+#about-homepage h1,
+.terms h1 {
     font-size: 42px;
     color: #616161;
 }
@@ -266,23 +269,38 @@ div.partner-logos {
 
 /*---------newsletter styles start-----*/
 
+#text-2 h2 {
+    text-align: center;
+    display: block;         
+}
+
 #newsletter {
     text-align: center;
     padding-bottom: 15px;
-    margin-right: 0;
-    margin-left: 5px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #d8b395;
+    background-color: #f6f6f6;
+}
+
+#newsletter input[type="submit"] {
+    background-color: #d97b34;
+    color: #FFF;
+    width: 50px;
+}
+
+#newsletter input[type="submit"]:hover {
+    background-color: #d8b395;
+    color: #000;
 }
 
 #newsletter p {
     font-size: 1.2em;
 }
 
-input[type="email"] {
+#newsletter input[type="email"] {
     width: 200px;
-}
-
-input.class[type="submit"] {
-    width: 50px;
 }
 
 /*---------newsletter styles end-----*/
@@ -343,7 +361,7 @@ input.class[type="submit"] {
 }
 
 #prettygood img {
-    height: 35px;
+    height: 25px;
     width: auto;
     border-radius: 5px;
 }
@@ -452,7 +470,7 @@ input.class[type="submit"] {
 
 .left-side {
     padding-left: 120px;
-    padding-top: 25px;
+    padding-top: 5px;
 }
 
 .cruap img {
@@ -503,14 +521,18 @@ div.cruap p {
 /*--------- apartments page styles start----*/
 
 .hb-details-fields {
-    
     text-align: center;
 }
 
-.hb-details-fields a {
+#hbook-booking-form-1 a,
+.hb-accom-list-item a {
     color: #000;
 }
 
+#hbook-booking-form-1 a:hover,
+.hb-accom-list-item a:hover {
+    color: #616161;
+}
 
 .hb-search-button-wrapper input[type="submit"] {
     height: 50px;
@@ -518,10 +540,14 @@ div.cruap p {
     font-size: 24px;
 }
 
+.hb-select-accom input[type="button"] {
+    background-color: #d97b34;
+    color: #fff;
+    border-radius: 4px;
+}
+
 #hbook-booking-form-1 {
-
-line-height: 150%;
-
+    line-height: 150%;
 }
 
 
@@ -531,8 +557,7 @@ line-height: 150%;
     margin-left: 30px;
     margin-right: 30px;
     margin-bottom: 15px;
-    border: 1px solid rgba(97,97,97,0.5);
-    border-radius: 4px;
+    border: 1px solid #d8b395;
     background-color: #f6f6f6;
 }
 
@@ -546,5 +571,45 @@ line-height: 150%;
     font-size: 24px;
 }
 
+.hb-details-fields p {
+    width: 40%;
+    display: inline-block;
+    margin-right: 10px;
+}
+input.hb-detail-field {
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.hb-details-fields h3 {
+    display: block;
+    font-size: 1.6em;
+}
+
+.hb-accom-list-item a {
+    color: #000
+}
+
+.hb-accom-list-item {
+    text-align: justify;
+}
+
+.hb-accom-list-item p {
+    padding-left: 200px;
+    line-height: 140%;
+}
+
+.hb-accom-list-item h2 {
+    text-align: center;
+    display: block;
+}
+
+.hb-accom-list-item small {
+    font-size: 80%;
+    text-align: center;
+    display: block;
+    right: 25px;
+    position: relative;
+}
 
 /*--------- apartments page styles end----*/

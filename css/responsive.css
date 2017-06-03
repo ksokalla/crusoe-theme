@@ -39,27 +39,34 @@
         padding-bottom: 10px;
         width: 100%;
     }
-    #about-homepage {
+    #about-homepage,
+    .terms {
         padding: 10px 30px;
     }
     .page-main-content {
         padding-left: 25px;
         padding-right: 25px;
     }
-    #cracow-pic img {
+    #cracow-pic img { 
         width: 100%;
     }
     .left-side {
-        padding-left: 0;
+        padding-left: 10px;;
     }
     .page-heading {
         text-align: center;
+    }
+    
+    .hb-details-fields p {
+        width: 100%;
+    
     }
 }
 
 @media(max-width : 26em) {
     #about-homepage,
-    #opinions {
+    #opinions,
+    .terms{
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
@@ -68,11 +75,16 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    .hb-accom-list-item p {
+        float: left;
+        margin-top: 5px;
+    }
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
     #about-homepage,
-    #opinions {
+    #opinions,
+    .terms {
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
@@ -91,5 +103,13 @@
         margin-left: 5px;
         margin-right: 5px;
     }
-        
+    
+    .hb-details-fields p {
+        width: 100%;
+    }
+     
+    .hb-accom-list-item p {
+        float: left;
+        margin-top: 5px;
+    }
 }

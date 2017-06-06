@@ -8,7 +8,8 @@
         <h1 class="page-heading"><?php the_title(); ?></h1>
         <div class="entry apartments-page-content-container">
             <?php the_content(); ?>
-        </div>
+            </div>
+            
         <?php endwhile; ?>
             <?php endif; ?>
                 <?php get_footer() ?>

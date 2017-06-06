@@ -50,3 +50,13 @@ jQuery(document).ready(function () {
     jQuery('p:empty').remove();
 });
 
+/*-------expandable apartment description start---*/
+
+
+jQuery( "#expandable" ).click(function() {
+  jQuery( "#expanded" ).slideToggle( "slow", function() {
+  });
+});
+
+
+/*-------expandable apartment description end---*/

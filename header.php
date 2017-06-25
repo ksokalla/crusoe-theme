@@ -23,15 +23,15 @@
 	<div class="container-fluid">
 		<div class='row'>
 			<div id="header-top-bar">
-				<div class="col-lg-4 col-sm-6">
+				<div id="padding-mod" class="col-lg-4 col-sm-6">
 					<h3><span><a href="<?php bloginfo('url'); ?>">Crusoe</a></span></h3> </div>
-				<div class="col-lg-4 col-sm-6">
-					<h3><?php bloginfo('description'); ?></h3> </div>
+				<div id="margin-mod" class="col-lg-4 col-sm-6">
+					<h3 id="blog-info-text"><?php bloginfo('description'); ?></h3> </div>
 				<div class="col-lg-4 col-sm-6">
 				<ul>
 					<li><a href="mailto:info@crusoe.info">info@crusoe.info</a></li>
 					<li>+48 500 503 888</li>
-<!--					<li><button class="btn-default"><a href="http://krzysztofsokalla.pl/dev/apartments/">Book now</a></button></li>-->
+					<li><button id="header-button" class="btn-default"><a href="http://krzysztofsokalla.pl/dev/apartments/">Book now</a></button></li>
 				</ul>
 				</div>
 				
@@ -56,8 +56,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <?php if (function_exists(RolandMenu()))RolandMenu(); ?>
-        <li><a href="https://www.facebook.com/Crusoeapartamenty" id="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/crusoe_travel/" id="ig"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="non-hover"><a href="https://www.facebook.com/Crusoeapartamenty" id="fb" class="non-hover"><i class="fa fa-facebook non-hover" aria-hidden="true"></i></a></li>
+        <li class="non-hover"><a href="https://www.instagram.com/crusoe_travel/" id="ig" class="non-hover"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>

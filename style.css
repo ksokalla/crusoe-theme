@@ -11,21 +11,25 @@ Tags: crusoe
 Text Domain: crusoe
 */
 
+
 /*---------general styles start---------*/
+
 body {
-  font-family: 'Open Sans Condensed';
-  margin: 0; 
-  width: 100%;
+	font-family: 'Open Sans Condensed';
+	margin: 0;
+	width: 100%;
 }
 
 a {
-  text-decoration: none;
-  color: #fff;
-  transition: 0.4s; }
+	text-decoration: none;
+	color: #fff;
+	transition: 0.4s;
+}
 
 a:hover {
-  text-decoration: none;
-  color: #000; }
+	text-decoration: none;
+	color: #000;
+}
 
 h1>a {
 	color: #616161;
@@ -33,659 +37,743 @@ h1>a {
 
 
 /*---------general styles end---------*/
+
+
 /*---------header styles start---------*/
+
 #header {
-  background-color: #616161; }
+	background-color: #616161;
+}
 
 #header-top-bar {
-  color: #fff;
-  text-align: center;
-  padding: 10px 0 0 0; }
-
-#header-top-bar span {
-    text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0 0 0;
 }
 
-#header-top-bar p, h2, h3, li {
-  display: inline;
-  text-align: center;
-  line-height: 100%; }
+.header-brand-text {
+	padding-left: 100px;
+}
+
+.header-brand-slogan {
+	margin-left: -150px;
+}
+
+#header-top-bar p,
+h2,
+h3,
+li {
+	display: inline;
+	text-align: center;
+	line-height: 100%;
+}
+
+#header-top-bar a:hover {
+	color: #fff;
+}
+
+#blog-info-text {
+	font-size: 20px;
+	position: relative;
+	bottom: -4px;
+}
 
 #header-top-bar ul > li {
-  padding-right: 25px;
-  font-size: 1.3em; }
-
-#header-top-bar ul {
-  padding-left: 0px; }
-
-span {
-  font-family: 'Lato';
-  font-size: 1.1em; }
-
-button a {
-  color: #616161; }
-
-button {
-  border-radius: 7px;
-  text-transform: uppercase;
-  padding: 4px 7px;
-  font-weight: bold;
-  background-color: #fff;
-  transition: 0.4s; }
-
-/*---------general styles end---------*/
-/*---------navbar syles start---------*/
-nav.navbar-default {
-  background-color: #fff; }
-
-.navbar-default .navbar-nav > li > a {
-  color: #333;
-  font-size: 1.5em;
-  font-weight: bold;
-  font-family: 'Open Sans Condensed';
-  margin: 5px 0;
-  padding-left: 45px;
-  padding-right: 45px;
-  letter-spacing: 1px; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #fff;
-  background-color: #aaa8a8; }
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top; }
-
-.navbar .navbar-collapse {
-  text-align: center; }
-
-ul > li > a > i.fa {
-  font-size: 1.5em; }
-
-#fb, #ig {
-  padding: 10px 25px 15px 25px; 
- }
-
-/*---------navbar syles end---------*/
-/*---------slider styles start------*/
-.slidersokalla img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #fff; }
-
-.slick-slide:focus {
-  outline: none; }
-
-.slick-slide {
-  width: 60vw; 
+	padding-right: 25px;
+	font-size: 1.3em;
 }
 
+#header-top-bar ul {
+	padding-left: 0px;
+}
+
+span {
+	font-family: 'Lato';
+	font-size: 1.1em;
+	height: 27px;
+}
+
+#header-button a {
+	color: #616161;
+	text-decoration: none;
+	font-size: 0.8em;
+}
+
+#header-button a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header-button {
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #fff;
+	transition: 0.4s;
+	border: none;
+	width: 110px;
+	height: 24px;
+}
+
+#header-button:hover {
+	background-color: #aaa8a8;
+}
+
+
+/*---------general styles end---------*/
+
+
+/*---------navbar syles start---------*/
+
+nav.navbar-default {
+	background-color: #fff;
+}
+
+.navbar-nav {
+	height: 60px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #333;
+	font-weight: bold;
+	font-family: 'Open Sans Condensed';
+	margin: 5px 0;
+	padding-left: 45px;
+	padding-right: 45px;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fff;
+	background-color: #aaa8a8;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+ul > li > a > i.fa {
+	font-size: 2.5em;
+	color: #999999;
+}
+
+#fb:hover,
+#ig:hover {
+	background-color: #fff; 
+}
+
+#fb,
+#ig {
+	padding: 10px 25px 15px 25px;
+}
+
+
+/*---------navbar syles end---------*/
+
+
+/*---------slider styles start------*/
+
+.slidersokalla img {
+	width: 100%;
+	height: auto;
+	border: 2px solid #fff;
+}
+
+.slick-slide:focus {
+	outline: none;
+}
+
+.slick-slide {
+	width: 60vw;
+}
+
+
 /*---------slider styles end--------*/
+
+
 /*---------icon bar styles start----*/
 
 #icon-bar {
-    text-align: center;
-    padding-top: 0px;
-    font-size: 1.3em;
-    letter-spacing: 1px;
+	text-align: center;
+	padding-top: 0px;
+	font-size: 1.3em;
+	letter-spacing: 1px;
 }
 
 .icons {
-    display: inline-block;
-    padding-left: 70px;
-    padding-right: 70px;
-    text-align: center;
+	display: inline-block;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
 }
 
 .icons img {
-    width: 70px;
-    height: auto;
-    padding-top: 15px;
-    padding-bottom: 15px;
-        
+	width: 70px;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 
-
 /*---------icon bar styles end----*/
+
+
 /*---------about-homepage styles start---*/
 
 #about-homepage,
 .terms {
-    background-color: #f6f6f6;
-    padding: 10px 120px;
-    text-align: justify;
+	background-color: #f6f6f6;
+	padding: 10px 120px;
+	text-align: justify;
 }
 
 #about-homepage p,
 .terms p,
 .inner-apartment-container p {
-    font-size: 1.2em;
-    font-family: 'Open sans';
+	font-size: 1.2em;
+	font-family: 'Open sans';
 }
 
 #about-homepage h1,
 .terms h1 {
-    font-size: 42px;
-    color: #616161;
+	font-size: 42px;
+	color: #616161;
 }
 
+
 /*---------about-homepage styles end---*/
+
+
 /*---------pros styles start-----------*/
 
 .pros-item {
-    display: inline-block;
-    vertical-align: top;
-    color: #616161;
-    
+	display: inline-block;
+	vertical-align: top;
+	color: #616161;
 }
 
-.pros-item h2, #opinions h2 {
-    font-size: 34px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #616161;
+.pros-item h2,
+#opinions h2 {
+	font-size: 34px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #616161;
 }
 
 #pros-list {
-    margin-top: 45px;
+	margin-top: 45px;
 }
 
 .pros-item li {
-    display: block;
-    font-size: 1.2em;
-    padding-bottom: 20px;
-    text-align: left;
-    display: list-item;
-    font-family: 'Open sans';
+	display: block;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	text-align: left;
+	display: list-item;
+	font-family: 'Open sans';
 }
 
 .crusoe-logo {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
 }
 
 .pros-items {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: -5px;
-    margin-right: -6px;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: -5px;
+	margin-right: -6px;
 }
 
 #pros img {
-    width: 80px;
-    height: auto;
+	width: 80px;
+	height: auto;
 }
 
+
 /*---------pros styles end-------------*/
+
+
 /*---------opinions-partners styles start-------------*/
 
 #opinions-partners {
-    margin-bottom: 80px;
+	margin-bottom: 80px;
 }
 
 #opinions {
-    display: block;
-    background-color: #f6f6f6;
-    padding-left: 190px;
-    padding-top: 50px;
-    padding-bottom: 10px;
+	display: block;
+	background-color: #f6f6f6;
+	padding-left: 190px;
+	padding-top: 50px;
+	padding-bottom: 10px;
 }
 
 #opinions p {
-    font-style: italic;
-    font-size: 1.3em;
+	font-style: italic;
+	font-size: 1.3em;
 }
 
 #opinions p.author {
-    font-style: normal;
-    font-weight: bold;
-    text-align: right;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
 }
 
-#opinions p:nth-child(2){
-    margin-top: 25px;
+#opinions p:nth-child(2) {
+	margin-top: 25px;
 }
 
 div.partner-logos {
-    width: 50%;
+	width: 50%;
 }
 
 #partners img {
-    width: auto;
-    height: auto;
-    padding: 20px 20px;
+	width: auto;
+	height: auto;
+	padding: 20px 20px;
 }
 
 #partners {
-    text-align: center;
-    width: 360px;
+	text-align: center;
+	width: 360px;
 }
 
 #partners div {
-    display: inline;
+	display: inline;
 }
+
 
 /*---------newsletter styles start-----*/
 
 #text-2 h2,
 #text-3 h2 {
-    text-align: center;
-    display: block;         
+	text-align: center;
+	display: block;
 }
 
 #newsletter {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-bottom: 10px;
-    border: 1px solid #d8b395;
-    background-color: #f6f6f6;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	border: 1px solid #d8b395;
+	background-color: #f6f6f6;
 }
 
 #newsletter input[type="submit"] {
-    background-color: #d97b34;
-    color: #FFF;
-    width: 50px;
+	background-color: #d97b34;
+	color: #FFF;
+	width: 50px;
 }
 
 #newsletter input[type="submit"]:hover {
-    background-color: #d8b395;
-    color: #000;
+	background-color: #d8b395;
+	color: #000;
 }
 
 #newsletter p {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 #newsletter input[type="email"] {
-    width: 200px;
+	width: 200px;
 }
+
 
 /*---------newsletter styles end-----*/
 
 
 /*---------opinions-partners styles end-------------*/
+
+
 /*---------footer styles start--------*/
+
 #footer {
-    height: 100%;
-    background-color: #f6f6f6;
-    padding-top: 40px;
+	height: 100%;
+	background-color: #f6f6f6;
+	padding-top: 40px;
 }
 
-
-#footer, #footer a, .contact-page-main-content a  {
-   font-weight: 300;
-   letter-spacing: 1px;
-   color: #616161;
+#footer,
+#footer a,
+.contact-page-main-content a {
+	font-weight: 300;
+	letter-spacing: 1px;
+	color: #616161;
 }
 
-
-#footer a:hover, .contact-page-main-content a:hover {
-    color: #000;
+#footer a:hover,
+.contact-page-main-content a:hover {
+	color: #000;
 }
 
 #footer h2 {
-    font-weight: bold;
-    font-size: 2em;
-    color: #616161;
+	font-weight: bold;
+	font-size: 2em;
+	color: #616161;
 }
 
-#footer p  {
-    margin: 0;
-    font-size: 1.5em;
+#footer p {
+	margin: 0;
+	font-size: 1.5em;
 }
 
 .footer-headers {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 #footer p.top-paragraph {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 
 #footer-bar {
-    display: inline;
-    text-align: center;
-    
+	display: inline;
+	text-align: center;
 }
 
 #copyright {
-    text-align: center;
-    width: 100%;
-    margin-top: 50px;
-    font-size: 0.75em;
-    color: #AAA8A8;
-    padding-bottom: 15px;
+	text-align: center;
+	width: 100%;
+	margin-top: 50px;
+	font-size: 0.75em;
+	color: #AAA8A8;
+	padding-bottom: 15px;
 }
 
 #prettygood img {
-    height: 25px;
-    width: auto;
-    border-radius: 5px;
+	height: 25px;
+	width: auto;
+	border-radius: 5px;
 }
 
 .copyrights {
-    display: inline;
+	display: inline;
 }
 
 #footer ul img {
-    width: 50px;
-    height: auto;
+	width: 50px;
+	height: auto;
 }
 
 .paypal img {
-    border: 1px solid rgba(66, 69, 244, 0.3);
-    border-radius: 5px;
+	border: 1px solid rgba(66, 69, 244, 0.3);
+	border-radius: 5px;
 }
 
 #footer ul {
-    padding-left: 0px;
+	padding-left: 0px;
 }
 
+
 /*---------footer styles end--------*/
+
 
 /*--------- about page styles start------*/
 
 .page-main-content {
-    padding-left: 120px;
-    padding-right: 120px;
-    font-size: 32px;
-    color: #616161;
-    text-align: justify;
+	padding-left: 120px;
+	padding-right: 120px;
+	font-size: 32px;
+	color: #616161;
+	text-align: justify;
 }
 
 .page-content-container img {
-    width: 100%;
+	width: 100%;
 }
 
 .page-heading {
-    padding-left: 120px;
-    padding-right: 120px;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 
 .page-content-container h1 {
-    font-size: 45px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #616161;
-    padding-left: 120px;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #616161;
+	padding-left: 120px;
 }
 
 .page-content-container h2 {
-    font-size: 34px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #616161;
+	font-size: 34px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #616161;
 }
 
 .services-list li {
-    display: block;
-    text-align: left;
-    font-size: 20px;
-    display: list-item;
-    padding-bottom: 8px;
-    
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	display: list-item;
+	padding-bottom: 8px;
 }
 
 .services-list ul {
-    margin-top: 25px;
-    padding-left: 25px;
+	margin-top: 25px;
+	padding-left: 25px;
 }
 
 #services-lists {
-    margin-top: 30px;
-    width: 100%;
-    height: auto;
-    padding-left: 60px;
-    
+	margin-top: 30px;
+	width: 100%;
+	height: auto;
+	padding-left: 60px;
 }
 
 .serv1 {
-     background-color: #f6f6f6;
-     margin-bottom: 60px;
+	background-color: #f6f6f6;
+	margin-bottom: 60px;
 }
 
 .list2 {
-    padding-top: 28px;
+	padding-top: 28px;
 }
 
+
 /*--------- about page styles end-*/
+
+
 /*--------- contact page styles start-*/
 
 #cracow-pic {
-    text-align: center;
+	text-align: center;
 }
 
 #cracow-pic img {
-    width: 70%;
-    height: auto;
+	width: 70%;
+	height: auto;
 }
 
 .contact-page-main-content {
-    font-size: 32px;
-    color: #616161;
-    text-align: justify;
+	font-size: 32px;
+	color: #616161;
+	text-align: justify;
 }
 
 .contact-page-main-content h2 {
-    font-weight: 400;
+	font-weight: 400;
 }
 
 .left-side {
-    padding-left: 120px;
-    padding-top: 5px;
+	padding-left: 120px;
+	padding-top: 5px;
 }
 
 .cruap img {
-     width: 130px;
-     height: auto;
-     padding-top: 15px;
+	width: 130px;
+	height: auto;
+	padding-top: 15px;
 }
 
 div.cruap {
-    display: inline-block;
-    vertical-align: top;
+	display: inline-block;
+	vertical-align: top;
 }
 
 div.cruap p {
-    margin-bottom: 0px;
-    font-size: 0.7em;
-    text-align: left;
+	margin-bottom: 0px;
+	font-size: 0.7em;
+	text-align: left;
 }
 
 #cruap-container-wrapper {
-    text-align: center;
+	text-align: center;
 }
 
 #cruap-container p:nth-child(2) {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 #crusoe-form {
-    padding-top: 0;
-    text-align: center;
+	padding-top: 0;
+	text-align: center;
 }
-
 
 
 /*--------- contact page styles end-*/
+
+
 /*--------- pictures page styles start-*/
 
-
 .left-padding-page {
-    padding-left: 20px;
-    padding-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-
 
 
 /*--------- pictures page styles end-*/
 
+
 /*--------- apartments page styles start----*/
 
 .hb-details-fields {
-    text-align: center;
+	text-align: center;
 }
 
 #hbook-booking-form-1 {
-    font-size: 1.4em;
+	font-size: 1.4em;
 }
 
 #hbook-booking-form-1 a,
 .hb-accom-list-item a,
 #expanded a {
-    color: #000;
+	color: #000;
 }
 
 #hbook-booking-form-1 a:hover,
 .hb-accom-list-item a:hover,
 #expanded a:hover {
-    color: #616161;
+	color: #616161;
 }
 
 .hb-search-button-wrapper input[type="submit"] {
-    height: 50px;
-    padding-top: 8px;
-    font-size: 24px;
+	height: 50px;
+	padding-top: 8px;
+	font-size: 24px;
 }
 
 .hb-select-accom input[type="button"],
 #expandable {
-    background-color: #d97b34;
-    color: #fff;
-    border-radius: 4px;
+	background-color: #d97b34;
+	color: #fff;
+	border-radius: 4px;
 }
 
-.apartments-page-content-container, 
+.apartments-page-content-container,
 .hb-resa-summary-content {
-    padding: 15px 30px 10px 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 15px;
-    border: 1px solid #d8b395;
-    background-color: #f6f6f6;
+	padding: 15px 30px 10px 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	border: 1px solid #d8b395;
+	background-color: #f6f6f6;
 }
 
 .hb-search-fields {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 
 .hb-check-dates-wrapper,
 .hb-people-wrapper {
-    background-color: #fff;
-    font-size: 24px;
+	background-color: #fff;
+	font-size: 24px;
 }
 
 .hb-details-fields p {
-    width: 40%;
-    display: inline-block;
-    margin-right: 10px;
+	width: 40%;
+	display: inline-block;
+	margin-right: 10px;
 }
+
 input.hb-detail-field {
-    max-width: 100%;
-    margin-right: 10px;
+	max-width: 100%;
+	margin-right: 10px;
 }
 
 .hb-details-fields h3 {
-    display: block;
-    font-size: 1.6em;
+	display: block;
+	font-size: 1.6em;
 }
 
 .apartments-page-content-container img {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .inner-apartment-container {
-    display: inline;
-    position: relative;
-    float: left;
-    text-align: justify;
-    margin-bottom: 10px;
+	display: inline;
+	position: relative;
+	float: left;
+	text-align: justify;
+	margin-bottom: 10px;
 }
 
 .inner-apartment-container>p {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 #expanded {
-    display: none;
-    margin-top: 10px;
+	display: none;
+	margin-top: 10px;
 }
 
 #expanded li {
-    font-size: 1.8em;
-    text-align: right;
-    padding-right: 10px;
+	font-size: 1.8em;
+	text-align: right;
+	padding-right: 10px;
 }
 
 #expanded h4 {
-    font-size: 2em;
-    font-weight: bold;
+	font-size: 2em;
+	font-weight: bold;
 }
 
-#expanded ul, 
+#expanded ul,
 #expanded h4 {
-    display: inline;
+	display: inline;
 }
 
 #expanded ul {
-    float: right;
-    margin-top: 5px;
-    padding-left: 0;
-} 
-
-#expanded ul::after {
-    
+	float: right;
+	margin-top: 5px;
+	padding-left: 0;
 }
 
+#expanded ul::after {}
+
 #expandable {
-    display: block;
-    border: none;
-    width: 150px;
-    padding: 6px 25px;
-    font-size: 24px;
+	display: block;
+	border: none;
+	width: 150px;
+	padding: 6px 25px;
+	font-size: 24px;
 }
 
 .icon-bar-booking {
-    text-align: center;
-    height: 100px;
+	text-align: center;
+	height: 100px;
 }
 
 .icon-bar-booking .icons {
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 15%;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 15%;
 }
 
 #expandable-wrapper {
-    display: inline-block;
-    margin-top: 25px;
+	display: inline-block;
+	margin-top: 25px;
 }
 
 #price-tag {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
-#price-tag p{
-    font-size: 1.8em;
-    margin-bottom: 0;
+#price-tag p {
+	font-size: 1.8em;
+	margin-bottom: 0;
 }
 
 #price-tag p:first-child {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 hr {
-    border: 1px solid #d8b395;
-    z-index: 50;
-    position: relative;
-    width: 100%;
+	border: 1px solid #d8b395;
+	z-index: 50;
+	position: relative;
+	width: 100%;
 }
+
 
 /*--------- apartments page styles end----*/

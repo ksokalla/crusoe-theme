@@ -128,6 +128,9 @@ nav.navbar-default {
 	background-color: #fff;
 }
 
+.navbar {
+	margin-bottom: 0;
+}
 .navbar-nav {
 	height: 60px;
 }
@@ -164,7 +167,7 @@ ul > li > a > i.fa {
 
 #fb:hover,
 #ig:hover {
-	background-color: #fff; 
+	background-color: #fff;
 }
 
 #fb,
@@ -203,20 +206,21 @@ ul > li > a > i.fa {
 	padding-top: 0px;
 	font-size: 1.3em;
 	letter-spacing: 1px;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .icons {
 	display: inline-block;
-	padding-left: 70px;
-	padding-right: 70px;
+	padding-left: 48px;
+	padding-right: 48px;
 	text-align: center;
 }
 
 .icons img {
-	width: 70px;
+	width: 40px;
 	height: auto;
 	padding-top: 15px;
-	padding-bottom: 15px;
 }
 
 
@@ -228,14 +232,14 @@ ul > li > a > i.fa {
 #about-homepage,
 .terms {
 	background-color: #f6f6f6;
-	padding: 10px 120px;
+	padding: 10px 190px;
 	text-align: justify;
 }
 
 #about-homepage p,
 .terms p,
 .inner-apartment-container p {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-family: 'Open sans';
 }
 
@@ -309,7 +313,7 @@ ul > li > a > i.fa {
 #opinions {
 	display: block;
 	background-color: #f6f6f6;
-	padding-left: 190px;
+	padding-left: 210px;
 	padding-top: 50px;
 	padding-bottom: 10px;
 }
@@ -334,14 +338,14 @@ div.partner-logos {
 }
 
 #partners img {
-	width: auto;
+	width: 130px;
 	height: auto;
 	padding: 20px 20px;
 }
 
 #partners {
 	text-align: center;
-	width: 360px;
+	padding-right: 250px;
 }
 
 #partners div {
@@ -361,8 +365,8 @@ div.partner-logos {
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: 230px;
+	margin-left: 230px;
 	margin-bottom: 10px;
 	border: 1px solid #d8b395;
 	background-color: #f6f6f6;
@@ -400,6 +404,8 @@ div.partner-logos {
 	height: 100%;
 	background-color: #f6f6f6;
 	padding-top: 40px;
+	padding-left: 110px;
+	padding-right: 110px;
 }
 
 #footer,
@@ -417,13 +423,13 @@ div.partner-logos {
 
 #footer h2 {
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1.6em;
 	color: #616161;
 }
 
 #footer p {
 	margin: 0;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .footer-headers {
@@ -479,8 +485,9 @@ div.partner-logos {
 /*--------- about page styles start------*/
 
 .page-main-content {
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-left: 220px;
+	padding-right: 220px;
+	padding-top: 25px;
 	font-size: 32px;
 	color: #616161;
 	text-align: justify;
@@ -491,7 +498,7 @@ div.partner-logos {
 }
 
 .page-heading {
-	padding-left: 120px;
+	padding-left: 225px;
 	padding-right: 120px;
 }
 
@@ -500,7 +507,7 @@ div.partner-logos {
 	font-weight: bold;
 	letter-spacing: 1px;
 	color: #616161;
-	padding-left: 120px;
+	padding-left: 210px;
 }
 
 .page-content-container h2 {
@@ -533,6 +540,8 @@ div.partner-logos {
 .serv1 {
 	background-color: #f6f6f6;
 	margin-bottom: 60px;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 .list2 {
@@ -550,7 +559,7 @@ div.partner-logos {
 }
 
 #cracow-pic img {
-	width: 70%;
+	width: 100%;
 	height: auto;
 }
 
@@ -565,8 +574,12 @@ div.partner-logos {
 }
 
 .left-side {
-	padding-left: 120px;
+	padding-left: 70px;
 	padding-top: 5px;
+}
+
+.left-side p {
+	text-align: left;
 }
 
 .cruap img {
@@ -597,6 +610,22 @@ div.cruap p {
 #crusoe-form {
 	padding-top: 0;
 	text-align: center;
+	padding-left: 220px;
+}
+
+.wpforms-field-medium {
+	max-width: 100%;
+}
+
+.wpforms-form button[type="submit"] {
+	float: right;
+}
+
+#wpforms-submit-1545 {
+	background-color: #fff;
+	border: none;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -608,6 +637,7 @@ div.cruap p {
 .left-padding-page {
 	padding-left: 20px;
 	padding-right: 20px;
+	margin-left: 100px;
 }
 
 
@@ -616,12 +646,30 @@ div.cruap p {
 
 /*--------- apartments page styles start----*/
 
+#booking-form {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 5px;
+}
+
 .hb-details-fields {
 	text-align: center;
 }
 
 #hbook-booking-form-1 {
 	font-size: 1.4em;
+	background-color: #666;
+	color: white;
+}
+
+.hb-accom-list,
+.hb-confirm-area {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hb-detail-field {
+	border: 1px solid #d8b395;
 }
 
 #hbook-booking-form-1 a,
@@ -636,10 +684,13 @@ div.cruap p {
 	color: #616161;
 }
 
+.hb-search-button-wrapper>label {
+	position: absolute;
+}
+
 .hb-search-button-wrapper input[type="submit"] {
-	height: 50px;
-	padding-top: 8px;
-	font-size: 24px;
+	height: 28px;
+	font-size: 15px;
 }
 
 .hb-select-accom input[type="button"],
@@ -651,22 +702,92 @@ div.cruap p {
 
 .apartments-page-content-container,
 .hb-resa-summary-content {
-	padding: 15px 30px 10px 30px;
+	padding: 8px 30px 10px 30px;
 	margin-left: 30px;
 	margin-right: 30px;
 	margin-bottom: 15px;
-	border: 1px solid #d8b395;
-	background-color: #f6f6f6;
+	background-color: #666;
 }
 
-.hb-search-fields {
-	padding-top: 15px;
+#apartment-details-wrapper {
+	border: 1px solid #d8b395;
+}
+
+#apartment-booking-form-wrapper {
+	margin-bottom: 15px;
+	margin-top: 0; 
+}
+
+#apartment-booking-form-wrapper .hb-accom-page {
+	border: 1px solid #d8b395;
+/*	height: 32px;*/
+}
+
+#apartment-booking-form-wrapper .hbook-wrapper input[type="submit"] {
+	border: 1px solid #d8b395;
+}
+
+#apartments-background-fix {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+#apartments-background-fix .hb-search-fields-and-submit {
+	margin-top: 0;
+}
+
+#apartments-background-fix .hb-check-dates-wrapper,
+#apartments-background-fix .hb-people-wrapper {
+	border-right: 1px solid #d8b395;
+}
+
+#apartments-background-fix .hb-resa-summary {
+	height: auto;
+}
+
+#apartments-background-fix,
+#apartments-background-fix #hbook-booking-form-1,
+#apartments-background-fix .hb-check-dates-wrapper,
+#apartments-background-fix .hb-people-wrapper{
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+.hb-resa-summary-content {
+	color: #000;
+}
+
+.hb-search-fields>p {
+	margin-bottom: 0;
+	height: 30px;
+}
+
+.hb-search-fields>p>input {
+	height: 30px;
+	color: #000;
+}
+
+.hb-search-fields-and-submit {
+	margin-top: 26px;
+}
+
+#hb-form-1-check-in-date,
+#hb-form-1-check-out-date,
+#hb-form-1-adults {
+	background-color: #fff;
+}
+
+#hb-form-1-adults {
+	color: #000;
 }
 
 .hb-check-dates-wrapper,
 .hb-people-wrapper {
-	background-color: #fff;
-	font-size: 24px;
+	background-color: #666;
+	font-size: 15px;
+	height: 30px;
 }
 
 .hb-details-fields p {
@@ -683,6 +804,7 @@ input.hb-detail-field {
 .hb-details-fields h3 {
 	display: block;
 	font-size: 1.6em;
+	
 }
 
 .apartments-page-content-container img {
@@ -700,6 +822,14 @@ input.hb-detail-field {
 
 .inner-apartment-container>p {
 	margin-top: 10px;
+}
+
+#apartment-info-booking {
+	padding-top: 15px;
+}
+
+#no-padding-left {
+	padding-left: 0;
 }
 
 #expanded {
@@ -728,8 +858,6 @@ input.hb-detail-field {
 	margin-top: 5px;
 	padding-left: 0;
 }
-
-#expanded ul::after {}
 
 #expandable {
 	display: block;

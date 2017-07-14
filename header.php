@@ -56,8 +56,8 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <?php if (function_exists(RolandMenu()))RolandMenu(); ?>
-        <li class="non-hover"><a href="https://www.facebook.com/Crusoeapartamenty" id="fb" class="non-hover"><i class="fa fa-facebook non-hover" aria-hidden="true"></i></a></li>
-        <li class="non-hover"><a href="https://www.instagram.com/crusoe_travel/" id="ig" class="non-hover"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="non-hover"><a href="https://www.facebook.com/Crusoeapartamenty" id="fb" target="_blank" class="non-hover"><i class="fa fa-facebook non-hover" aria-hidden="true"></i></a></li>
+        <li class="non-hover"><a href="https://www.instagram.com/crusoe_travel/" id="ig" target="_blank" class="non-hover"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>

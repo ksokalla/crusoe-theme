@@ -35,6 +35,14 @@ h1>a {
 	color: #616161;
 }
 
+h2,
+h3,
+h4,
+h5,
+.page-heading {
+	font-family: 'Arial Narrow';
+}
+
 
 /*---------general styles end---------*/
 
@@ -76,6 +84,7 @@ li {
 	font-size: 20px;
 	position: relative;
 	bottom: -4px;
+	font-family: 'Open Sans Condensed'
 }
 
 #header-top-bar ul > li {
@@ -130,7 +139,9 @@ nav.navbar-default {
 
 .navbar {
 	margin-bottom: 0;
+	border-width: 0;
 }
+
 .navbar-nav {
 	height: 60px;
 }
@@ -212,13 +223,13 @@ ul > li > a > i.fa {
 
 .icons {
 	display: inline-block;
-	padding-left: 48px;
-	padding-right: 48px;
+	padding-left: 40px;
+	padding-right: 40px;
 	text-align: center;
 }
 
 .icons img {
-	width: 40px;
+	width: 43px;
 	height: auto;
 	padding-top: 15px;
 }
@@ -245,8 +256,12 @@ ul > li > a > i.fa {
 
 #about-homepage h1,
 .terms h1 {
-	font-size: 42px;
+	font-size: 45px;
 	color: #616161;
+}
+
+h1 {
+	margin-top: 0;
 }
 
 
@@ -263,9 +278,7 @@ ul > li > a > i.fa {
 
 .pros-item h2,
 #opinions h2 {
-	font-size: 34px;
-	font-weight: bold;
-	letter-spacing: 1px;
+	font-size: 32px;
 	color: #616161;
 }
 
@@ -333,12 +346,12 @@ ul > li > a > i.fa {
 	margin-top: 25px;
 }
 
-div.partner-logos {
+.partner-logos {
 	width: 50%;
 }
 
 #partners img {
-	width: 130px;
+	width: 170px;
 	height: auto;
 	padding: 20px 20px;
 }
@@ -350,6 +363,18 @@ div.partner-logos {
 
 #partners div {
 	display: inline;
+}
+
+#partners #partner-logos-row2 {
+	display: block;
+}
+
+#partner-logos-row2 img {
+	width: 205px;
+	height: auto;
+	margin-left: 55px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -488,9 +513,10 @@ div.partner-logos {
 	padding-left: 220px;
 	padding-right: 220px;
 	padding-top: 25px;
-	font-size: 32px;
+	font-size: 29px;
 	color: #616161;
 	text-align: justify;
+	margin-bottom: 45px;
 }
 
 .page-content-container img {
@@ -500,20 +526,18 @@ div.partner-logos {
 .page-heading {
 	padding-left: 225px;
 	padding-right: 120px;
+	color: #616161;
+	font-size: 33px;
 }
 
 .page-content-container h1 {
-	font-size: 45px;
-	font-weight: bold;
-	letter-spacing: 1px;
+	font-size: 50px;
 	color: #616161;
 	padding-left: 210px;
 }
 
 .page-content-container h2 {
-	font-size: 34px;
-	font-weight: bold;
-	letter-spacing: 1px;
+	font-size: 32px;
 	color: #616161;
 }
 
@@ -664,8 +688,8 @@ div.cruap p {
 
 .hb-accom-list,
 .hb-confirm-area {
-    padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .hb-detail-field {
@@ -715,12 +739,12 @@ div.cruap p {
 
 #apartment-booking-form-wrapper {
 	margin-bottom: 15px;
-	margin-top: 0; 
+	margin-top: 0;
 }
 
 #apartment-booking-form-wrapper .hb-accom-page {
 	border: 1px solid #d8b395;
-/*	height: 32px;*/
+	/*	height: 32px;*/
 }
 
 #apartment-booking-form-wrapper .hbook-wrapper input[type="submit"] {
@@ -748,12 +772,10 @@ div.cruap p {
 #apartments-background-fix,
 #apartments-background-fix #hbook-booking-form-1,
 #apartments-background-fix .hb-check-dates-wrapper,
-#apartments-background-fix .hb-people-wrapper{
+#apartments-background-fix .hb-people-wrapper {
 	background-color: #fff;
 	color: #000;
 }
-
-
 
 .hb-resa-summary-content {
 	color: #000;
@@ -804,7 +826,6 @@ input.hb-detail-field {
 .hb-details-fields h3 {
 	display: block;
 	font-size: 1.6em;
-	
 }
 
 .apartments-page-content-container img {

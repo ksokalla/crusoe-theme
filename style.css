@@ -43,6 +43,10 @@ h5,
 	font-family: 'Arial Narrow';
 }
 
+section {
+	overflow: hidden;
+}
+
 
 /*---------general styles end---------*/
 
@@ -208,6 +212,24 @@ ul > li > a > i.fa {
 
 
 /*---------slider styles end--------*/
+
+
+/*---------booking form main page styles start-------*/
+
+#booking-form .hb-search-button-wrapper input[type="submit"] {
+	height: 30px;
+	font-size: 15px;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Open Sans Condensed';
+}
+
+#booking-form #hb-form-1-adults {
+	height: 30px;
+}
+
+
+/*---------booking form main page styles end-------*/
 
 
 /*---------icon bar styles start----*/
@@ -674,6 +696,7 @@ div.cruap p {
 	margin-left: 150px;
 	margin-right: 150px;
 	margin-top: 5px;
+	background-color: #616161;
 }
 
 .hb-details-fields {
@@ -713,8 +736,12 @@ div.cruap p {
 }
 
 .hb-search-button-wrapper input[type="submit"] {
-	height: 28px;
-	font-size: 15px;
+	height: 36px;
+	font-size: 16px;
+	background-color: #d97b34;
+	border: none;
+	color: #fff;
+	font-family: 'Open Sans';
 }
 
 .hb-select-accom input[type="button"],
@@ -781,14 +808,30 @@ div.cruap p {
 	color: #000;
 }
 
+.hb-search-fields {
+	height: 36px;
+}
+
 .hb-search-fields>p {
 	margin-bottom: 0;
-	height: 30px;
+	height: 36px;
 }
 
 .hb-search-fields>p>input {
 	height: 30px;
 	color: #000;
+}
+
+#hbook-booking-form-1 .hb-search-form-no-children .hb-check-dates-wrapper,
+#hbook-booking-form-1 .hb-search-form-no-children .hb-people-wrapper,
+#hbook-booking-form-1 .hb-search-form-no-children .hb-search-button-wrapper {
+	width: 25%;
+	margin-right: 0;
+}
+
+.hb-search-fields-and-submit input,
+.hb-search-fields-and-submit select {
+	border: none;
 }
 
 .hb-search-fields-and-submit {
@@ -799,6 +842,12 @@ div.cruap p {
 #hb-form-1-check-out-date,
 #hb-form-1-adults {
 	background-color: #fff;
+	height: 36px;
+}
+
+select {
+	border-width: 0.5px;
+	border-color: #d8b395;
 }
 
 #hb-form-1-adults {
@@ -810,6 +859,8 @@ div.cruap p {
 	background-color: #666;
 	font-size: 15px;
 	height: 30px;
+	margin-right: 0;
+	padding-left: 5px;
 }
 
 .hb-details-fields p {

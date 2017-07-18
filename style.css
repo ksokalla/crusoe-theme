@@ -43,10 +43,6 @@ h5,
 	font-family: 'Arial Narrow';
 }
 
-section {
-	overflow: hidden;
-}
-
 
 /*---------general styles end---------*/
 
@@ -62,6 +58,15 @@ section {
 	text-align: center;
 	padding: 10px 0 0 0;
 }
+
+
+/*
+@font-face {
+    font-family: 'Analogue';
+    src:  url('/fonts/analogue55regular-webfont.woff2') format('woff2'),
+         url('/fonts/analogue55regular-webfont.woff') format('woff');
+       }
+*/
 
 .header-brand-text {
 	padding-left: 100px;
@@ -100,8 +105,11 @@ li {
 	padding-left: 0px;
 }
 
+#header-top-bar h3 {
+	font-family: 'Open Sans Condensed';
+}
+
 span {
-	font-family: 'Lato';
 	font-size: 1.1em;
 	height: 27px;
 }
@@ -150,13 +158,14 @@ nav.navbar-default {
 	height: 60px;
 }
 
+
 .navbar-default .navbar-nav > li > a {
 	color: #333;
 	font-weight: bold;
 	font-family: 'Open Sans Condensed';
 	margin: 5px 0;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 35px;
+	padding-right: 35px;
 	letter-spacing: 1px;
 }
 
@@ -187,7 +196,7 @@ ul > li > a > i.fa {
 
 #fb,
 #ig {
-	padding: 10px 25px 15px 25px;
+	padding: 10px 15px 15px 15px;
 }
 
 
@@ -222,10 +231,33 @@ ul > li > a > i.fa {
 	background-color: #fff;
 	color: #000;
 	font-family: 'Open Sans Condensed';
+	position: relative;
+	bottom: 1px;
+	margin-left: 2%;
 }
 
 #booking-form #hb-form-1-adults {
 	height: 30px;
+}
+
+#booking-form .hb-search-form-no-children .hb-check-dates-wrapper,
+#booking-form .hb-search-form-no-children .hb-people-wrapper,
+#booking-form .hb-search-form-no-children .hb-search-button-wrapper {
+	width: 23.5%;
+	margin-right: 2%;
+}
+
+#booking-form p.hb-select-accom input[type="submit"],
+#booking-form .hb-confirm-button input[type="submit"] {
+	color: #000;
+}
+
+#booking-form .hb-details-fields input {
+	color: #000;
+}
+
+#booking-form .hb-check-dates-wrapper {
+	color: #000;
 }
 
 
@@ -469,9 +501,9 @@ h1 {
 }
 
 #footer h2 {
-	font-weight: bold;
 	font-size: 1.6em;
 	color: #616161;
+	text-align: left;
 }
 
 #footer p {
@@ -481,6 +513,9 @@ h1 {
 
 .footer-headers {
 	margin-top: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: left;
 }
 
 #footer p.top-paragraph {
@@ -579,7 +614,7 @@ h1 {
 #services-lists {
 	margin-top: 30px;
 	width: 100%;
-	height: auto;
+	height: 75px;
 	padding-left: 60px;
 }
 
@@ -659,12 +694,21 @@ div.cruap p {
 	padding-left: 220px;
 }
 
+#crusoe-form .wpforms-field {
+	padding: 2px 0;
+}
+
 .wpforms-field-medium {
 	max-width: 100%;
 }
 
 .wpforms-form button[type="submit"] {
 	float: right;
+}
+
+#wpforms-submit-1545 {
+	font-size: 18px;
+	letter-spacing: 1px;
 }
 
 #wpforms-submit-1545 {
@@ -683,7 +727,7 @@ div.cruap p {
 .left-padding-page {
 	padding-left: 20px;
 	padding-right: 20px;
-	margin-left: 100px;
+	margin-left: 40px;
 }
 
 
@@ -705,7 +749,7 @@ div.cruap p {
 
 #hbook-booking-form-1 {
 	font-size: 1.4em;
-	background-color: #666;
+	background-color: #616161;
 	color: white;
 }
 
@@ -748,7 +792,6 @@ div.cruap p {
 #expandable {
 	background-color: #d97b34;
 	color: #fff;
-	border-radius: 4px;
 }
 
 .apartments-page-content-container,
@@ -756,8 +799,7 @@ div.cruap p {
 	padding: 8px 30px 10px 30px;
 	margin-left: 30px;
 	margin-right: 30px;
-	margin-bottom: 15px;
-	background-color: #666;
+	background-color: #616161;
 }
 
 #apartment-details-wrapper {
@@ -771,7 +813,6 @@ div.cruap p {
 
 #apartment-booking-form-wrapper .hb-accom-page {
 	border: 1px solid #d8b395;
-	/*	height: 32px;*/
 }
 
 #apartment-booking-form-wrapper .hbook-wrapper input[type="submit"] {
@@ -779,8 +820,8 @@ div.cruap p {
 }
 
 #apartments-background-fix {
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 180px;
+	margin-right: 180px;
 }
 
 #apartments-background-fix .hb-search-fields-and-submit {
@@ -829,6 +870,13 @@ div.cruap p {
 	margin-right: 0;
 }
 
+#hbook-booking-form-1 #hb-form-1-check-in-date,
+#hbook-booking-form-1 #hb-form-1-check-out-date,
+#hbook-booking-form-1 #hb-form-1-adults {
+	background-color: #fff;
+	height: 30px;
+}
+
 .hb-search-fields-and-submit input,
 .hb-search-fields-and-submit select {
 	border: none;
@@ -856,7 +904,7 @@ select {
 
 .hb-check-dates-wrapper,
 .hb-people-wrapper {
-	background-color: #666;
+	background-color: #616161;
 	font-size: 15px;
 	height: 30px;
 	margin-right: 0;
@@ -902,11 +950,21 @@ input.hb-detail-field {
 
 #no-padding-left {
 	padding-left: 0;
+	width: 60%;
+}
+
+#booking-right-side {
+	width: 39%;
+	color: #616161;
 }
 
 #expanded {
 	display: none;
 	margin-top: 10px;
+}
+
+#expanded p {
+	font-size: 20px;
 }
 
 #expanded li {
@@ -934,14 +992,15 @@ input.hb-detail-field {
 #expandable {
 	display: block;
 	border: none;
-	width: 150px;
+	width: 100%;
 	padding: 6px 25px;
-	font-size: 24px;
+	font-size: 20px;
+	font-family: 'Open Sans';
 }
 
 .icon-bar-booking {
 	text-align: center;
-	height: 100px;
+	height: 45px;
 }
 
 .icon-bar-booking .icons {
@@ -952,15 +1011,25 @@ input.hb-detail-field {
 
 #expandable-wrapper {
 	display: inline-block;
-	margin-top: 25px;
+	width: 90%;
 }
 
 #price-tag {
 	margin-bottom: 10px;
 }
 
-#price-tag p {
-	font-size: 1.8em;
+#price-tag {
+	font-size: 28px;
+	margin-bottom: 0;
+	font-family: 'Open Sans';
+	color: #616161;
+	display: block;
+	border-left: 1px solid #d8b395;
+	padding-left: 15px;
+}
+
+#price-tag h5 {
+	font-size: 16px;
 	margin-bottom: 0;
 }
 

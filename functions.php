@@ -75,6 +75,7 @@ echo $menu_list;
 
 function styles_and_scripts() {
     
+	wp_enqueue_style( 'analogue-font', get_template_directory_uri() .'/stylesheet.css',array(), '1.0.0' );
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() .'/css/bootstrap.min.css',array(),'3.3.4' );
     wp_enqueue_style( 'theme-style', get_template_directory_uri() .'/style.css',array(), '1.0.0' );
     wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() .'/css/font-awesome.min.css',array(),'4.0.3' );
@@ -126,6 +127,17 @@ if ( function_exists('register_sidebar') ) {
 
 add_theme_support( 'post-thumbnails' );
 
+function crusoe_custom_logo_setup() {
+    $defaults = array(
+        'height'      => 44,
+        'width'       => 90,
+        'flex-height' => false,
+        'flex-width'  => false,
+        'header-text' => array( 'site-title', 'site-description' ),
+    );
+    add_theme_support( 'custom-logo', $defaults );
+}
+add_action( 'after_setup_theme', 'crusoe_custom_logo_setup' );
 
 ?>
 	

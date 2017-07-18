@@ -1,4 +1,4 @@
-@media(max-width: 77.2em) {
+@media(max-width: 77.2em) /* 1235 px */{
 	.icons {
 		padding-left: 35px;
 		padding-right: 35px;
@@ -37,10 +37,24 @@
 	#newsletter {
 		margin-left: 15px;
 		margin-right: 15px;
+		margin-right: 15px;
 	}
+	
+	#footer h2 {
+	text-align: center;
 }
 
-@media(max-width: 60em) {
+	.footer-headers {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+	.icon-bar-booking {
+	height: auto;
+}
+}
+
+@media(max-width: 62.125em) /* 	960px */ {
 	.list2 {
 		padding-top: 0;
 	}
@@ -63,9 +77,14 @@
 		margin-left: 15px;
 		margin-right: 15px;
 	}
+	
+	.serv1 {
+		height: 720px;
+		padding-bottom: 20px;
+	}
 }
 
-@media(max-width: 48em) {
+@media(max-width: 48em) /* 768px */ {
 	.icons {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -108,7 +127,7 @@
 		padding-left: 120px;
 	}
 	.left-padding-page {
-		margin-left: 50px;
+		margin-left: 20px;
 	}
 	#booking-form,
 	#icon-bar {
@@ -132,15 +151,48 @@
 	#hbook-booking-form-1 .hb-search-form-no-children .hb-search-button-wrapper {
 		width: 100%;
 		border: 1px solid #d8b395;
+		background-color: #fff;
+		color: #000;
 	}
 	
 	#apartments-background-fix .hb-check-dates-wrapper,
 	#apartments-background-fix .hb-people-wrapper {
 	border-right: none;
 }
+	#booking-form .hb-search-button-wrapper input[type="submit"] {
+		margin-left: 0;
+		height: 35px;
+	}
+	
+	#hbook-booking-form-1 #hb-form-1-check-in-date, #hbook-booking-form-1 #hb-form-1-check-out-date, #hbook-booking-form-1 #hb-form-1-adults {
+		height: 34px;
+	}
+	
+	#booking-form .hb-vertical-search-form:not(.hb-narrow-search-form) .hb-search-button-wrapper input {
+		width: 100%;
+	}
+	
+	#apartment-details-wrapper {
+	border: none;
+}
+	.apartments-page-content-container,
+	.hb-resa-summary-content {
+	border: 1px solid #d8b395;
+	}
+	
+	#no-padding-left {
+	width: 100%;
+	padding-right: 0;
 }
 
-@media(max-width: 26em) {
+	#booking-right-side {
+	width: 100%;
+	padding-right: 0;
+}
+	
+}
+
+@media(max-width: 26em) /*  416px  */ {
 	#about-homepage,
 	#opinions,
 	.terms {
@@ -171,6 +223,14 @@
 	}
 	#apartment-booking-form-wrapper .hb-accom-page {
 		height: auto;
+	}
+	
+	.hb-vertical-search-form:not(.hb-narrow-search-form) .hb-search-button-wrapper input {
+		width: 100%;
+	}
+	
+	.page-heading {
+		padding-left: 20px;
 	}
 }
 

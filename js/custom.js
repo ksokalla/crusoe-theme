@@ -51,7 +51,7 @@ jQuery("#expandable").click(function () {
 	jQuery("#expanded").slideToggle("slow", function () {});
 });
 /*-------expandable apartment description end---*/
-/*-------reomve header classes on resize start---*/
+/*-------remove header classes on resize start---*/
 jQuery(window).on('resize',function(){
      if(jQuery(this).width() > 1230) {
         jQuery('div#margin-mod').addClass('header-brand-slogan');
@@ -62,4 +62,14 @@ jQuery(window).on('resize',function(){
 		jQuery('div#padding-mod').removeClass('header-brand-text');
 	 }
 });
-/*-------reomve header classes on resize end---*/
+/*-------remove header classes on resize end---*/
+/*-------remove list class on resize start---*/
+jQuery(window).on('resize',function(){
+     if(jQuery(this).width() < 1141) {
+        jQuery('ul.class-remove').removeClass('list2');
+	 }
+	 else {
+        jQuery('ul.class-remove').addClass('list2');
+	 }
+});
+/*-------remove list class on resize end---*/

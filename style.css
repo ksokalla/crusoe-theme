@@ -226,14 +226,13 @@ ul > li > a > i.fa {
 /*---------booking form main page styles start-------*/
 
 #booking-form .hb-search-button-wrapper input[type="submit"] {
-	height: 30px;
+	height: 34px;
 	font-size: 15px;
 	background-color: #fff;
 	color: #000;
 	font-family: 'Open Sans Condensed';
 	position: relative;
-	bottom: 1px;
-	margin-left: 2%;
+	margin-left: 4px;
 }
 
 #booking-form #hb-form-1-adults {
@@ -244,7 +243,7 @@ ul > li > a > i.fa {
 #booking-form .hb-search-form-no-children .hb-people-wrapper,
 #booking-form .hb-search-form-no-children .hb-search-button-wrapper {
 	width: 23.5%;
-	margin-right: 2%;
+/*	margin-right: 2%;*/
 }
 
 #booking-form p.hb-select-accom input[type="submit"],
@@ -872,9 +871,22 @@ div.cruap p {
 
 #hbook-booking-form-1 #hb-form-1-check-in-date,
 #hbook-booking-form-1 #hb-form-1-check-out-date,
-#hbook-booking-form-1 #hb-form-1-adults {
+#hbook-booking-form-1 #hb-form-1-adults,
+#hbook-booking-form-1 #hb-form-1-children {
 	background-color: #fff;
-	height: 30px;
+	height: 34px;
+	margin-left: 2px;
+}
+
+#hbook-booking-form-1 p.hb-check-dates-wrapper, 
+#hbook-booking-form-1 p.hb-people-wrapper, 
+#hbook-booking-form-1 p.hb-search-button-wrapper {
+	margin-right: 0;
+}
+
+#hbook-booking-form-1 .hb-people-wrapper,
+#hbook-booking-form-1 .hb-check-dates-wrapper {
+	width: 20%;
 }
 
 .hb-search-fields-and-submit input,
@@ -888,7 +900,8 @@ div.cruap p {
 
 #hb-form-1-check-in-date,
 #hb-form-1-check-out-date,
-#hb-form-1-adults {
+#hb-form-1-adults,
+#hb-form-1-children {
 	background-color: #fff;
 	height: 36px;
 }
@@ -898,7 +911,8 @@ select {
 	border-color: #d8b395;
 }
 
-#hb-form-1-adults {
+#hb-form-1-adults,
+#hb-form-1-children {
 	color: #000;
 }
 
@@ -908,6 +922,9 @@ select {
 	font-size: 15px;
 	height: 30px;
 	margin-right: 0;
+}
+
+.hb-input-datepicker, #hb-adults {
 	padding-left: 5px;
 }
 

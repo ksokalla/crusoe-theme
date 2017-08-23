@@ -31,7 +31,7 @@
 				<ul>
 					<li><a href="mailto:info@crusoe.info">info@crusoe.info</a></li>
 					<li>+48 500 503 888</li>
-					<li><button id="header-button" class="btn-default"><a href="http://krzysztofsokalla.pl/dev/apartments/">Book now</a></button></li>
+					<li><button id="header-button" class="btn-default"><a href="http://www.crusoe-apartamenty-krakow.com/pl/apartamenty/">Book now</a></button></li>
 				</ul>
 				</div>
 				

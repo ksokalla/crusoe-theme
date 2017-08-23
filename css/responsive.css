@@ -1,4 +1,7 @@
-@media(max-width: 77.2em) /* 1235 px */{
+@media(max-width: 77.2em)
+/* 1235 px */
+
+{
 	.icons {
 		padding-left: 35px;
 		padding-right: 35px;
@@ -39,22 +42,23 @@
 		margin-right: 15px;
 		margin-right: 15px;
 	}
-	
 	#footer h2 {
-	text-align: center;
-}
-
+		text-align: center;
+	}
 	.footer-headers {
-	padding-left: 0;
-	padding-right: 0;
-	text-align: center;
-}
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
 	.icon-bar-booking {
-	height: auto;
-}
+		height: auto;
+	}
 }
 
-@media(max-width: 62.125em) /* 	960px */ {
+@media(max-width: 62.125em)
+/* 	960px */
+
+{
 	.list2 {
 		padding-top: 0;
 	}
@@ -77,14 +81,16 @@
 		margin-left: 15px;
 		margin-right: 15px;
 	}
-	
 	.serv1 {
 		height: 720px;
 		padding-bottom: 20px;
 	}
 }
 
-@media(max-width: 48em) /* 768px */ {
+@media(max-width: 48em)
+/* 768px */
+
+{
 	.icons {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -145,7 +151,6 @@
 	#booking-form .hb-search-fields>p {
 		margin-bottom: 5px;
 	}
-
 	#hbook-booking-form-1 .hb-search-form-no-children .hb-check-dates-wrapper,
 	#hbook-booking-form-1 .hb-search-form-no-children .hb-people-wrapper,
 	#hbook-booking-form-1 .hb-search-form-no-children .hb-search-button-wrapper {
@@ -154,45 +159,53 @@
 		background-color: #fff;
 		color: #000;
 	}
-	
 	#apartments-background-fix .hb-check-dates-wrapper,
 	#apartments-background-fix .hb-people-wrapper {
-	border-right: none;
-}
+		border-right: none;
+	}
 	#booking-form .hb-search-button-wrapper input[type="submit"] {
 		margin-left: 0;
 		height: 35px;
 	}
-	
-	#hbook-booking-form-1 #hb-form-1-check-in-date, #hbook-booking-form-1 #hb-form-1-check-out-date, #hbook-booking-form-1 #hb-form-1-adults {
+	#hbook-booking-form-1 #hb-form-1-check-in-date,
+	#hbook-booking-form-1 #hb-form-1-check-out-date,
+	#hbook-booking-form-1 #hb-form-1-adults,
+	#hbook-booking-form-1 #hb-form-1-children {
 		height: 34px;
+		margin-left: 0;
 	}
-	
 	#booking-form .hb-vertical-search-form:not(.hb-narrow-search-form) .hb-search-button-wrapper input {
 		width: 100%;
 	}
-	
 	#apartment-details-wrapper {
-	border: none;
-}
-	.apartments-page-content-container,
-	.hb-resa-summary-content {
-	border: 1px solid #d8b395;
+		border: none;
 	}
-	
+	#apartments-background-fix,
+	.hb-resa-summary-content {
+		border: 1px solid #d8b395;
+	}
 	#no-padding-left {
-	width: 100%;
-	padding-right: 0;
-}
-
+		width: 100%;
+		padding-right: 0;
+	}
 	#booking-right-side {
-	width: 100%;
-	padding-right: 0;
-}
-	
+		width: 100%;
+		padding-right: 0;
+	}
+	#hbook-booking-form-1 .hb-people-wrapper,
+	#hbook-booking-form-1 .hb-check-dates-wrapper {
+		width: 100%;
+	}
+	#hbook-booking-form-1 .hb-people-wrapper,
+	#hbook-booking-form-1 .hb-check-dates-wrapper:nth-child(2) {
+		border: 1px solid #d8b395;
+	}
 }
 
-@media(max-width: 26em) /*  416px  */ {
+@media(max-width: 26em)
+/*  416px  */
+
+{
 	#about-homepage,
 	#opinions,
 	.terms {
@@ -224,11 +237,9 @@
 	#apartment-booking-form-wrapper .hb-accom-page {
 		height: auto;
 	}
-	
 	.hb-vertical-search-form:not(.hb-narrow-search-form) .hb-search-button-wrapper input {
 		width: 100%;
 	}
-	
 	.page-heading {
 		padding-left: 20px;
 	}
